@@ -1,0 +1,117 @@
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #F6F6F6;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#container-master{
+    max-width: calc(100vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container-top{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#f8da48;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+div>span,a{
+    font-weight: bold;
+    color: white;
+}
+.menus{
+    width: 500px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menus>a:link, a:visited {
+    text-decoration: none;
+}
+.menus>a:link:active, a:visited:active {
+    color: #d0d0d0;
+    cursor: auto;
+}
+.menus>a:hover{
+    padding: 0px 2px;
+    background-color: white;
+    color: #f8da48;
+}
+#container-main{
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+.post>img{
+    margin: 20px 0px;
+}
+.post{
+    width: 640px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    padding: 5px;
+}
+.post>h1{
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f8da48
+}
+.leia-mais{
+    color: #f8da48;
+    text-decoration: none;
+}
+.leia-mais:hover{
+    text-decoration: underline;
+}
+.nav{
+    width: 224px;
+    background-color: white;
+    margin: 20px 0px 20px 20px;
+    padding: 5px;
+}
+.nav>h1{
+    background-color:#CCC;
+    padding: 5px;
+    font-weight: bold;
+}
+hr{
+    height: 2px;
+    border: 0;
+    background-color: #CCC ;
+}
+.nav>a{
+    display: block;
+    color: #f8da48;
+    line-height: 1.5;
+}
+.nav>a:link, a:visited{
+    text-decoration: none;
+}
+.nav>a:link:active, a:visited:active{
+    color: #d0d0d0;
+    cursor: auto;
+}
+.nav>a:hover{
+    text-decoration: underline;
+}
+#container-footer{
+    width: 980px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #CCC;
+    
+}
+#container-footer>p{
+    font-weight: bold;
+    
+}
